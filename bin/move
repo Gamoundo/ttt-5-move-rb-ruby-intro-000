@@ -8,5 +8,5 @@ board =[' " "', ' " "', ' " "', ' " "', ' " "', ' " "', ' " "', ' " "', ' " "']
 print "Where would you like to go?"
 input= gets.strip
 converted_input = input_to_index(input)
-move(board, converted_input, user)
+move(board, converted_input, ' "x" ')
 display_board(board)
