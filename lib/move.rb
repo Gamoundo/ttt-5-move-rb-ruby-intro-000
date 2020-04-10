@@ -18,4 +18,3 @@ user= " x "
   board[input_to_index(user_input)] =  user
 
 end
-
