@@ -13,7 +13,7 @@ def input_to_index(user_input)
   converted_input = user_input.to_i - 1
 end
 
-def move(board, integer, value = ' x ')
+def move(board, integer, value = "X")
 
   board[integer] =  value
 
